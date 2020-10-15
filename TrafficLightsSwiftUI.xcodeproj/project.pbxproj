@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70F3E45025380F5300A2E91A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F3E44F25380F5300A2E91A /* ButtonView.swift */; };
 		70FF04192537F95F004DC392 /* TrafficLightsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FF04182537F95F004DC392 /* TrafficLightsSwiftUIApp.swift */; };
 		70FF041B2537F95F004DC392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FF041A2537F95F004DC392 /* ContentView.swift */; };
 		70FF041D2537F95F004DC392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FF041C2537F95F004DC392 /* Assets.xcassets */; };
 		70FF04202537F95F004DC392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FF041F2537F95F004DC392 /* Preview Assets.xcassets */; };
+		70FF04292537F9B1004DC392 /* CellTLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FF04282537F9B1004DC392 /* CellTLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70F3E44F25380F5300A2E91A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		70FF04152537F95F004DC392 /* TrafficLightsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FF04182537F95F004DC392 /* TrafficLightsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsSwiftUIApp.swift; sourceTree = "<group>"; };
 		70FF041A2537F95F004DC392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70FF041C2537F95F004DC392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70FF041F2537F95F004DC392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70FF04212537F95F004DC392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70FF04282537F9B1004DC392 /* CellTLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				70FF04182537F95F004DC392 /* TrafficLightsSwiftUIApp.swift */,
 				70FF041A2537F95F004DC392 /* ContentView.swift */,
+				70F3E44F25380F5300A2E91A /* ButtonView.swift */,
+				70FF04282537F9B1004DC392 /* CellTLView.swift */,
 				70FF041C2537F95F004DC392 /* Assets.xcassets */,
 				70FF04212537F95F004DC392 /* Info.plist */,
 				70FF041E2537F95F004DC392 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FF04292537F9B1004DC392 /* CellTLView.swift in Sources */,
 				70FF041B2537F95F004DC392 /* ContentView.swift in Sources */,
+				70F3E45025380F5300A2E91A /* ButtonView.swift in Sources */,
 				70FF04192537F95F004DC392 /* TrafficLightsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
